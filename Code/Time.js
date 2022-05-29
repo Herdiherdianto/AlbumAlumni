@@ -1,4 +1,4 @@
-let coutDownDate = new Date("jun 13, 2022 19:30:00").getTime();
+let coutDownDate = new Date("jun 10, 2022 19:30:00").getTime();
 
 let x = setInterval(function () {
   let now = new Date().getTime();
