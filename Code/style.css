@@ -1,281 +1,126 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Times New Roman", Times, serif;
+* {
+  padding: 0;
+  margin: 0;
 }
-.aka {
-  margin: auto;
-  width: 1280px;
-  height: 800px;
-}
-.container {
-  width: 1280px;
-  height: 800px;
-  background-image: url(../AssetImg/Pangandaran.jpg);
-  background-size: cover;
-  background-position: center;
-  filter: brightness(40%) blur(2px);
-  z-index: -1;
-}
-.tl {
-  width: 1280px;
-  text-align: center;
-  position: absolute;
-  margin-top: -790px;
-  justify-content: center;
-  color: white;
-  font-size: 45px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.tl p span {
-  color: rgb(255, 255, 255);
-  font-family: "pacifico";
-  text-decoration: underline;
-}
-.time {
-  width: 1280px;
-  height: 200px;
-  margin: auto;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  position: absolute;
-  margin-top: -550px;
-}
-.time div {
-  width: 200px;
-  height: 200px;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin: 0px 20px 0px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.196);
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: rgba(255, 255, 255, 0.2) 5px 5px 5px;
-}
-
-.time div p {
-  color: rgb(255, 255, 255);
-  font-size: 90px;
-  text-align: center;
-  margin-top: 30px;
-}
-.time div h3 {
-  display: inline-block;
-  font-size: 30px;
-  color: rgb(255, 255, 255);
+.back {
+  width: 1263px;
+  height: 700px;
+  border: 1px solid black;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: auto auto;
   align-items: center;
-  margin-top: -80px;
-  margin-left: 65px;
+  align-content: center;
+  filter: brightness(70%) blur(1px);
+}
+.back div {
+  height: 350px;
+  width: auto;
+  border: 2px solid wheat;
+}
+.Satu {
+  background-color: yellowgreen;
+
+  background-image: url(/AssetImg/AKL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Dua {
+  background-color: yellowgreen;
+
+  background-image: url(/AssetImg/angkatan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Tiga {
+  background-color: yellowgreen;
+
+  background-image: url(/AssetImg/angkatan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Empat {
+  background-color: yellowgreen;
+
+  background-image: url(/AssetImg/angkatan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.t2 {
-  width: 1280px;
-  text-align: center;
+.lima {
+  height: 200px;
+  width: 200px;
+
+  background-image: url(/AssetImg/SMK.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -454px;
+  margin-left: 533px;
+  filter: blur(1px);
+}
+
+.nama {
+  z-index: 2;
   position: absolute;
-  margin-top: -290px;
-  justify-content: center;
+  margin-top: 150px;
+  margin-left: 460px;
   color: white;
-  font-size: 45px;
-  font-family: "pacifico";
 }
-
-.copy {
-  width: 1280px;
-  position: absolute;
-  margin-top: -70px;
-}
-.copy a {
+.nama p {
   text-align: center;
-  text-decoration: none;
-  display: block;
-  color: rgba(255, 255, 255, 0.498);
-  font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Mobile */
+/* Resposip Mobile */
+
 @media (max-width: 480px) {
-  .aka {
-    margin: auto;
-    width: 440px;
-    height: 1000px;
-  }
-  .container {
-    width: 440px;
-    height: 1000px;
-    background-image: url(../AssetImg/Pangandaran.jpg);
-    background-size: cover;
-    background-position: center;
-    filter: brightness(40%) blur(2px);
-    z-index: -1;
-  }
-  .tl {
-    width: 440px;
-    text-align: center;
-    position: absolute;
-    margin-top: -990px;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
-  .tl p span {
-    color: rgb(255, 255, 255);
-    font-family: "pacifico";
-    text-decoration: underline;
-  }
-  .time {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    position: absolute;
-    margin-top: -640px;
-    margin-left: 144px;
-  }
-  .time div {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px 20px 0px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.196);
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: rgb(255 255 255 / 20%) 5px 5px 5px;
-  }
-
-  .time div p {
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    text-align: center;
-    margin-top: 15px;
-  }
-  .time div h3 {
-    display: inline-block;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
+  .back {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: auto;
     align-items: center;
-    margin-top: -40px;
-    margin-left: 30px;
+    align-content: center;
   }
+  .back div {
+    height: 200px;
+    width: auto;
+    background-color: yellowgreen;
+    border: 1px solid wheat;
 
-  .t2 {
-    width: 440px;
-    text-align: center;
-    position: absolute;
-    margin-top: -290px;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-    font-family: "pacifico";
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  .Satu {
+    background-color: yellowgreen;
 
-  .copy {
-    width: 440px;
-    position: absolute;
-    margin-top: -70px;
+    background-image: url(/AssetImg/AKL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .copy a {
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    color: rgba(255, 255, 255, 0.498);
-    font-size: 15px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .Dua {
+    background-color: yellowgreen;
+
+    background-image: url(/AssetImg/angkatan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Tiga {
+    background-color: yellowgreen;
+
+    background-image: url(/AssetImg/angkatan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Empat {
+    background-color: yellowgreen;
+
+    background-image: url(/AssetImg/angkatan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
-
-/* mobile */
-@media (max-width: 420px) {
-  .aka {
-    margin: auto;
-    width: 380px;
-    height: 1000px;
-  }
-  .container {
-    width: 380px;
-    height: 1000px;
-    background-image: url(../AssetImg/Pangandaran.jpg);
-    background-size: cover;
-    background-position: center;
-    filter: brightness(40%) blur(2px);
-    z-index: -1;
-  }
-  .tl {
-    width: 380px;
-    text-align: center;
-    position: absolute;
-    margin-top: -990px;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
-  .tl p span {
-    color: rgb(255, 255, 255);
-    font-family: "pacifico";
-    text-decoration: underline;
-  }
-  .time {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    position: absolute;
-    margin-top: -640px;
-    margin-left: 110px;
-  }
-  .time div {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px 20px 0px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.196);
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: rgb(255 255 255 / 20%) 5px 5px 5px;
-  }
-
-  .time div p {
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    text-align: center;
-    margin-top: 15px;
-  }
-  .time div h3 {
-    display: inline-block;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    align-items: center;
-    margin-top: -40px;
-    margin-left: 28px;
-  }
-
-  .t2 {
-    width: 380px;
-    text-align: center;
-    position: absolute;
-    margin-top: -290px;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-    font-family: "pacifico";
-  }
-
-  .copy {
-    width: 380px;
-    position: absolute;
-    margin-top: -70px;
-  }
-  .copy a {
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    color: rgba(255, 255, 255, 0.498);
-    font-size: 15px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-}
-
-/* tablet */
+/* Tablet */
