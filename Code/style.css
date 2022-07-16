@@ -21,28 +21,28 @@
 .Satu {
   background-color: yellowgreen;
 
-  background-image: url(/AssetImg/AKL.jpg);
+  background-image: url(../AssetImg/AKL.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Dua {
   background-color: yellowgreen;
 
-  background-image: url(/AssetImg/angkatan.jpg);
+  background-image: url(../AssetImg/angkatan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Tiga {
   background-color: yellowgreen;
 
-  background-image: url(/AssetImg/angkatan.jpg);
+  background-image: url(../AssetImg/angkatan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Empat {
   background-color: yellowgreen;
 
-  background-image: url(/AssetImg/angkatan.jpg);
+  background-image: url(../AssetImg/angkatan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,7 +51,7 @@
   height: 200px;
   width: 200px;
 
-  background-image: url(/AssetImg/SMK.png);
+  background-image: url(../AssetImg/SMK.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -97,28 +97,28 @@
   .Satu {
     background-color: yellowgreen;
 
-    background-image: url(/AssetImg/AKL.jpg);
+    background-image: url(../AssetImg/AKL.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .Dua {
     background-color: yellowgreen;
 
-    background-image: url(/AssetImg/angkatan.jpg);
+    background-image: url(../AssetImg/angkatan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .Tiga {
     background-color: yellowgreen;
 
-    background-image: url(/AssetImg/angkatan.jpg);
+    background-image: url(../AssetImg/angkatan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .Empat {
     background-color: yellowgreen;
 
-    background-image: url(/AssetImg/angkatan.jpg);
+    background-image: url(../AssetImg/angkatan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
