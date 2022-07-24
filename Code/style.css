@@ -1,10 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 .back {
-  width: 1263px;
-  height: 700px;
+  width: 100vw;
+  height: 100vh;
   border: 1px solid black;
   display: grid;
   overflow: hidden;
@@ -14,8 +15,8 @@
   filter: brightness(70%) blur(1px);
 }
 .back div {
-  height: 350px;
-  width: auto;
+  height: 50vh;
+  width: 50vw;
   border: 2px solid white;
 }
 .Satu {
@@ -23,52 +24,78 @@
 
   background-image: url(../AssetImg/AKL.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .Dua {
   background-color: skyblue;
-
-  background-image: url(../AssetImg/angkatan.jpg);
+  background-position: center;
+  background-image: url(../AssetImg/TKJ.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Tiga {
   background-color: yellowgreen;
-
-  background-image: url(../AssetImg/angkatan.jpg);
+  background-position: center;
+  background-image: url(../AssetImg/TBSM.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Empat {
   background-color: yellowgreen;
-
+  background-position: center;
   background-image: url(../AssetImg/angkatan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.lima {
-  height: 200px;
-  width: 200px;
-
-  background-image: url(../AssetImg/SMK.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: -454px;
-  margin-left: 533px;
-  filter: blur(1px);
-}
-
 .nama {
-  z-index: 2;
-  position: absolute;
-  margin-top: 150px;
-  margin-left: 460px;
-  color: white;
-}
-.nama p {
+  width: 100vw;
+  margin-top: 20vh;
   text-align: center;
+  z-index: 20;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+.nama h1 {
+  text-align: center;
+}
+
+/* Slide */
+.hidden {
+  opacity: 0;
+}
+.console-container {
+  z-index: 30;
+  width: 70vw;
+  height: 70vh;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  text-align: center;
+  z-index: 20;
+  font-size: 2em;
+  position: absolute;
+
+  /* font-family: Khula;
+  font-size: 5vh;
+  text-align: center;
+  height: 20vh;
+  width: 50vw;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; */
+}
+.console-underscore {
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: 0.2em;
+  left: -2px;
 }
 
 /* Resposip Mobile */
@@ -76,7 +103,7 @@
 @media (max-width: 480px) {
   .back {
     margin-top: 50px;
-    width: 100%;
+    width: 100vw;
     height: auto;
     border: 1px solid black;
     display: grid;
@@ -86,7 +113,7 @@
     align-content: center;
   }
   .back div {
-    height: 200px;
+    height: 25vh;
     width: auto;
     background-color: skyblue;
     border: 1px solid wheat;
@@ -96,31 +123,40 @@
   }
   .Satu {
     background-color: skyblue;
-
+    background-position: center;
     background-image: url(../AssetImg/AKL.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .Dua {
     background-color: yellowgreen;
-
+    background-position: center;
     background-image: url(../AssetImg/angkatan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .Tiga {
     background-color: yellowgreen;
-
+    background-position: center;
     background-image: url(../AssetImg/angkatan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .Empat {
     background-color: skyblue;
-
+    background-position: center;
     background-image: url(../AssetImg/angkatan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* .nama {
+    z-index: 2;
+    position: absolute;
+    color: white;
+  }
+  .nama p {
+    text-align: center;
+  } */
 }
 /* Tablet */
